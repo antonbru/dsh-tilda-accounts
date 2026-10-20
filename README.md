@@ -49,7 +49,7 @@ plugin_manager install_bundle <полный-путь-к-папке-плагин�
 plugin_manager install_bundle https://github.com/antonbru/dsh-tilda-accounts
 ```
 
-Для приватного репозитория коллегам нужен доступ к GitHub (SSH-ключ или token в pnpm). Публичный репозиторий проще: ссылки достаточно.
+Репозиторий публичный: достаточно ссылки, доступ к GitHub не нужен.
 
 Если папка уже склонирована, выполните в ней `pnpm install` и передайте в `install_bundle` полный путь к этой папке.
 
